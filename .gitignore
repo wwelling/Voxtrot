@@ -1,0 +1,13 @@
+
+.classpath
+.project
+.settings/
+
+build.txt
+
+*.log
+*.zip
+*.tar
+*.qz
+
+target/
