@@ -59,7 +59,7 @@ public class Generator {
 		
 		long startWorldGeneration = System.nanoTime();
 		
-		float coordinateScalar = 0.025f;
+		float coordinateScalar = 0.000025f;
 		
 		int elevationDelta = 10;
 		int minShellThickness = 1;
@@ -120,7 +120,7 @@ public class Generator {
 																						
 											float noise = (stb_perlin_noise3(voxelX*coordinateScalar, voxelY*coordinateScalar, voxelZ*coordinateScalar, 0, 0, 0) + 1) * elevationDelta;
 
-											if(distanceFromCenter > innerCircumference && distanceFromCenter <= outerCircumference + noise) {
+											if (distanceFromCenter > innerCircumference && distanceFromCenter <= outerCircumference + noise) {
 												sectionIndex.getCi().get(sX*sectionDimensions.y*sectionDimensions.z + sY*sectionDimensions.z + sZ).getVm().put(voxelX*worldSize.y*worldSize.z + voxelY*worldSize.z + voxelZ, new Byte("0"));
 												voxelCount++;
 											}

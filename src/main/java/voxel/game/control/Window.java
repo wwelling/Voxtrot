@@ -105,8 +105,8 @@ public class Window {
 	
 	private long id;
 	
-	private int width = 800;
-	private int height = 600;
+	private int width = 1600;
+	private int height = 800;
 	
 	private int prevWidth;
 	private int prevHeight;
