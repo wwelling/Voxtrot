@@ -34,15 +34,6 @@ Soon to be Voxel Game Engine.
   * Voxel based characters
   * Possibly 3ds mesh
 
-## Sprint Schedule
-| Card  | Points | Developer |
-| :------------- | :-------------: | :------------- |
-| 5. Sections |  |  |
-| 6. Outer buffer |  |  |
-| 7. Inner buffer |  |  |
-| 8. Edit mode |  |  |
-| 9. Terrain |  |  |
-
 
 #### To build 
 ```
