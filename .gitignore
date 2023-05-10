@@ -13,3 +13,6 @@ build.txt
 *.qz
 
 target/
+
+src/main/resources/maps/*
+!src/main/resources/maps/.gitkeep
